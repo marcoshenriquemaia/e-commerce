@@ -1,0 +1,87 @@
+body{
+  background-color: #302D47;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-center{
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.logo{
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  margin-right: 45px;
+}
+
+.logo-title{
+  font-size: 51px;
+  font-weight: 900;
+}
+
+.logo-sub-title{
+  font-size: 11px;
+  color: #BFBFBF;
+}
+
+.welcome{
+  color: #BFBFBF;
+  font-size: 20px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button{
+  background-color: #6C63FF;
+  border: 1px solid #6C63FF;
+  color: #ffffff;
+  padding: 17px 33px;
+  font-size: 20px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  transition-duration: 250ms; 
+}
+
+.button:hover{
+  background-color: transparent;
+  color: #6C63FF;
+}
+
+.button--purple-header{
+  margin-right: 15px;
+}
+
+.button--red{
+  background-color: #EE4C4C;
+  border: 1px solid #EE4C4C;
+}
+
+.button--red:hover{
+  background-color: transparent;
+  color: #EE4C4C;
+}
+
+.button-header-wrapper{
+  display: flex;
+}
+
+.logo-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.button-header-wrapper .button--purple{
+  margin-right: 15px; 
+}
+
+.image{
+  width: 200px;
+  height: auto;
+}
